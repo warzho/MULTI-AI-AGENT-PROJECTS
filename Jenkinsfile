@@ -1,13 +1,13 @@
 pipeline{
     agent any
 
-    environment {
-        // SONAR_PROJECT_KEY = 'LLMOPS'
-		// SONAR_SCANNER_HOME = tool 'SonarqubeScanner'
-        // AWS_REGION = 'us-east-1'
-        // ECR_REPO = 'llmops-repo'
-        // IMAGE_TAG = 'latest'
-	}
+    // environment {
+    //     SONAR_PROJECT_KEY = 'LLMOPS'
+	// 	SONAR_SCANNER_HOME = tool 'SonarqubeScanner'
+    //     AWS_REGION = 'us-east-1'
+    //     ECR_REPO = 'llmops-repo'
+    //     IMAGE_TAG = 'latest'
+	// }
 
     stages{
         stage('Cloning Github repo to Jenkins'){
